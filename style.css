@@ -1,0 +1,33 @@
+:root{
+    --main-color: lightblue;
+}
+content{
+    position: fixed;
+    left: 50%;
+    top: 20%;
+    transform: translateX(-50%);
+    
+
+    display: flex;
+    flex-direction: column;
+    background-color: var(--main-color);
+    padding: 1px;
+    outline: thick double #000d13;
+}
+.pop-title{
+
+}
+.pop-contain{
+    display: flex;
+    flex-direction: row;
+}
+.pop-left{
+
+}
+.pop-right{
+    display: flex;
+    flex-direction: column;
+}
+.pop-image{
+
+}

@@ -13,13 +13,28 @@
             Totally Not Malware
         </div>
 
-        <div class="pop-left">
-            <div class="pop-image">image</div>
-        </div>
+        <div class="pop-contain">
+                <div class="pop-image">
+                    <img src="https://media.tenor.com/0RQlQ5EN5ggAAAAC/yui-anime.gif"
+                    alt="anime-girl"
+                    >
+                </div>
 
-        <div class="pop-right">
-            <div class="pop-text">lend me skin b/c</div>
-            <div class="pop-input">[prompt here]</div>
+                <div class="pop-right">
+                    <div class="pop-text">H-hi cc-an i get your credit card-dd??</div>
+                    <div class="pop-input">
+                        <label for="first_name">First Name:</label>
+                        <input type="text" name="first_name" id="first_name">
+
+                        <label for="last_name">Last Name:</label>
+                        <input type="text" name="last_name" id="last_name">
+
+                        <label for="ccn">Credit Card Number:</label>
+                        <input id="ccn" type="tel" inputmode="numeric" pattern="[0-9\s]{13,19}" autocomplete="cc-number" maxlength="19" placeholder="xxxx xxxx xxxx xxxx">
+
+                    </div>
+                    <button type="submit">Thanks!</button>
+                </div>
         </div>
     </content>
 </body>
