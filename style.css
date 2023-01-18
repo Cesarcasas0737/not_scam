@@ -15,7 +15,8 @@ content{
     outline: thick double #000d13;
 }
 .pop-title{
-
+    display: flex;
+    justify-content: space-between;
 }
 .pop-contain{
     display: flex;
@@ -29,5 +30,8 @@ content{
     flex-direction: column;
 }
 .pop-image{
-
+    height: auto; 
+    width: auto; 
+    max-width: 300px; 
+    max-height: 300px;
 }
